@@ -13,7 +13,7 @@ This Bash script is designed to automate the process of packaging binaries and t
 To use the script, you can run it from your terminal with the following command:
 
 \```bash
-./package.sh [name]
+./binDepPackager.sh [name]
 \```
 
 Where `[name]` is an optional argument that specifies the name of the parent directory and the tarball. If no name is provided, a default name ("package") will be used.
@@ -32,4 +32,4 @@ The script operates in several steps:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
